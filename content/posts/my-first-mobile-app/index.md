@@ -187,8 +187,7 @@ We also use Firebase for our database storage. This makes it convenient for us t
 
 The purpose of the backend server is to provide access to information for the application to run. We provide APIs to create users, create events, join events, etc. These will be done through HTTP requests and responses. It is worth noting here that even though we use external tools for authentication, creating users is still done using our services. External tools only take care of the authentication information. They should not be caring about user information like "Full name", "Profile Picture", etc.
 
-<details>
-<summary>Routes Provided</summary>
+{{< detail-tag "Routes Provided" >}}
 
 - Create Events - POST - create a new event
 
@@ -208,25 +207,24 @@ The purpose of the backend server is to provide access to information for the ap
 - Register - POST - resister user profiles and posting information
 
 - Update Status - POST - updates user infection status
-</details>
 
+{{< /detail-tag >}}
+\
 Since user has to be logged in to use the app, all routes are **protected** (with the exception of **Register**). This means that every protected request has to be sent with a token as well. If the token is invalid or not present, the app will not be able to retrieve the information.
 
 Most of the routes provided are relatively self explanatory. Certain routes might need more explanation as they need to do some underlying logic when executed.
 
-<details>
-<summary>Join Events Provided</summary>
+{{< detail-tag "Join Events Provided" >}}
 
 When the app sends a request to join an event, we retrieve the user's information from the token that is sent with the request. We further check that the user is valid before adding the user to the event.
 
-</details>
-
-<details>
-<summary>Update Status</summary>
+{{< /detail-tag >}}
+\
+{{< detail-tag "Update Status" >}}
 
 When the user's infection status is updated, a couple of things happen behind the scenes. The server will first retrieve all events that the user has attended in the past 7 days. Afterwards, it will consolidate all the users in those events into a list. Messages will be created and stored for each user. Affected users will receive a notification though the app.
 
-</details>
+{{< /detail-tag >}}
 
 ### Storage
 
@@ -254,15 +252,14 @@ For testing of the backend services, we deployed the code to Heroku as it was fr
 
 Lastly, we did some basic user testing. We did this by setting out a few tasks for our users and see if they could accomplish them without any assistance. We turned to the 2 people that responded positively in our previous survey for testing.
 
-<details>
-<summary>Tasks</summary>
+{{< detail-tag "Tasks" >}}
 
 1. Create an event
 2. Scan Event QR code
 3. Update infection status
 
-</details>
-
+{{< /detail-tag >}}
+\
 They were able to carry out the tasks with ease and find all relevant information they needed. However, we did note some performance issues of the app that may need some fixing.
 
 \*\*NOTE: We did skip all the unit testing stuff.

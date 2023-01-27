@@ -285,6 +285,10 @@ Note that due to the use case, we can tolerate some slight inconsistencies. If a
 
 ## Conclusion
 
+With this, we are able to solve the issues we set out to tackle. Website links are automatically generated without additional input from the user. Though there are still some issues with this solution, it will do for now. Anyway software is always about improving on previous work :)
+
+Happy Coding!
+
 ## Appendix (for those interested)
 
 ### Why clean up on exit?
@@ -300,3 +304,9 @@ I tried to resolve this issue by getting the previous command ran before a `CTRL
 Another way was to use the `.bash_history` file which records all commands ran. This sounds possible at first. However, I found out that this command history is only updated when the user exits the session. It is not updated immediately when a command is run. To resolve this, we can actually add a snippet to the `.bashrc` file and it will append to the `.bash_history` file after every command. Assuming the `SIGINT` or `SIGTERM` signal is sent, this would work. But it would only work in a single instance environment. For full-stack development, there is a possibility of running 2 node instances at the same time for manual testing. Hence you might be detecting the wrong service closing.
 
 We could also add certain graceful shutdown functionalities to the services we are running. However, that would violate the "Hassle-free" requirement of this project as students will need to make these changes.
+
+### Alternative possible solution
+
+VSCode can `SSH` into the server and do port forwarding through `SSH`. This gives the user access to the server ports from their local machine. I knew this at the beginning but felt that students still need to know how to `SSH` through VSCode to the server.
+
+For context, I am using `shellinabox` so the student can access the terminal through a web browser. All students will use the same environment reducing the chances of issues due to operating systems. If you are interested to find out more about what I am teaching you can visit the [Coding Crayons](https://codingcrayons.com) website. However, it is likely you do not need it since you read till here. So please recommend it if your friends are interested :)
