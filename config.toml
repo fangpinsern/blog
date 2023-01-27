@@ -2,7 +2,7 @@ baseURL = 'https://ideas.pinsern.com/'
 languageCode = 'en-us'
 title = 'Over Engineered'
 
-theme="PaperMod1"
+theme="PaperMod"
 
 enableRobotsTXT=true
 
