@@ -3,6 +3,7 @@ title: "Importance of Logging"
 date: 2022-01-24T11:19:44+08:00
 showToc: true
 TocOpen: false
+author: ["Damien"]
 
 ShowReadingTime: true
 ShowWordCount: false

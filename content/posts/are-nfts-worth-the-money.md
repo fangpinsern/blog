@@ -3,6 +3,7 @@ title: "Are NFTs Worth the Money?"
 date: 2022-02-12T11:27:24+08:00
 showToc: true
 TocOpen: false
+author: ["Damien"]
 
 ShowReadingTime: true
 ShowWordCount: false

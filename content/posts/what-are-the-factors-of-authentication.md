@@ -3,6 +3,7 @@ title: "What Are the Factors of Authentication"
 date: 2022-01-14T10:59:44+08:00
 showToc: true
 TocOpen: false
+author: ["Damien"]
 
 ShowReadingTime: true
 ShowWordCount: false
