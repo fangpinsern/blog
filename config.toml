@@ -1,0 +1,26 @@
+baseURL = 'https://ideas.pinsern.com/'
+languageCode = 'en-us'
+title = 'Over Engineered'
+
+theme="PaperMod"
+
+enableRobotsTXT=true
+
+[params.homeInfoParams]
+Title = "Hi there!"
+Content = """
+My girlfriend once told me 'Can you go find someone who cares?' 
+
+So here I am!
+"""
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/fangpinsern"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/pin-sern-fang-689539191/"
+
+[params.assets]
+favicon="/favicon.svg"
