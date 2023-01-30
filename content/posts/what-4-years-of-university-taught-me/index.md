@@ -3,7 +3,7 @@ title: "What 4 years of university education taught me"
 date: 2022-06-10T11:27:24+08:00
 showToc: true
 TocOpen: false
-author: ["Damien"]
+author: ["Pin Sern"]
 
 desc: "University is expensive. Here are my key take aways from the last 4 years of education."
 

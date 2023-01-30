@@ -3,7 +3,7 @@ title: "Just an old video I watched"
 date: 2022-06-24T11:27:24+08:00
 showToc: true
 TocOpen: false
-author: ["Damien"]
+author: ["Pin Sern"]
 
 ShowReadingTime: true
 ShowWordCount: false
