@@ -155,7 +155,7 @@ In summary, what a preflight request does is for the client to check if the serv
 
 Lastly, `Origin` checks with the server what hostnames are allowed to access the resource.
 
-This preflight request is sent through the `OPTION` method with only headers. For example, if the following headers is the response to the request:
+This preflight request is sent through the `OPTION` method with only headers. For example, if the following headers are the response to the request:
 
 ```json
 {
@@ -217,7 +217,7 @@ Lastly, when developing at scale, working in a team setting might be troublesome
 
 ## Conclusion
 
-Now I can handle the form submissions without a full backend server deployment. Sometime in the future I may want to integrate a database into the service so I can keep all the information accessible rather than through a private telegram channel. Till then, this solution will work fine.
+Now I can handle the form submissions without a full backend server deployment. Sometime in the future, I may want to integrate a database into the service so I can keep all the information accessible rather than through a private telegram channel. Till then, this solution will work fine.
 
 Happy Coding!
 
@@ -229,4 +229,4 @@ The initial plan was to send the user an email informing them that I have receiv
 
 There is no efficient way to filter out if a person is genuine or malicious algorithmically (that I know of). If a malicious attacker wants to spam a person's mailbox, they can access the API and just enter the victim's email address. Furthermore, if we are using a third-party service like [SendGrid](https://sendgrid.com/) or [MailGun](https://www.mailgun.com/) which charges by the volume of emails sent, it may incur large financial costs.
 
-Thus I decided to manually do it till I cane figure out a way to protect the API.
+Thus I decided to manually do it till I can figure out a way to protect the API.
