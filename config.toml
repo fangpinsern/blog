@@ -9,7 +9,7 @@ enableRobotsTXT=true
 [params.homeInfoParams]
 Title = "Hi there! My name is Pin Sern"
 Content = """
-My girlfriend once told me 'Can you go find someone who cares?'
+My girlfriend once told me "Can you go find someone who cares?"
 
 So here I am!
 """
