@@ -149,9 +149,9 @@ On top of that, each person can only buy 1 ticket so you cannot be able to seat 
 
 This brings about extra overhead complexity that just does not make sense for them to implement.
 
-## Conclude
+## Conclusion
 
-As grim as it sounds, they probably will not do anything about the system. For major ticket sales like this, the only loser is the fans. The artist still sells out whether the system is good or not. You can only buy your tickets from Ticketmaster anyway. So no matter how bad the experience is, fans will still flock in and hope for the best.
+As grim as it sounds, they probably will not do anything about the system. For major ticket sales like this, the only loser is the fans. The artist still sells out whether the system is good or not. Ticketmaster has a monopoly on ticket sales. So you can only buy your tickets at retail price from them. No matter how bad the experience is, so long as the tickets are for sale, fans will still flock in and hope for the best. At the end of the day, don't get too affected. Maybe you can sneak in through the garden gates to seal your fate.
 
 ## Others
 
