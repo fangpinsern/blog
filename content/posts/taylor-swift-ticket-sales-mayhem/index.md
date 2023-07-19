@@ -85,7 +85,7 @@ As mentioned above, I do not work at Ticketmaster. So what I am saying below is 
 
 Ticket master likely uses `short-polling` for their wait room and queue services. Short polling is when your browser calls the backend servers during a set time interval. Here is an illustration of how short polling works.
 
-// insert image
+![Short Polling](images/short-polling.png)
 
 Due to this design, you may not be entering the queue at exactly 12 pm. Instead, your browser might request the server for a queue number 10 seconds after.
 
@@ -107,37 +107,37 @@ Note that all this is just speculation. There is no guarantee that you would get
 
 ## Can Ticketmaster do better?
 
-There are many complaints out there asking for Ticketmaster to implement certain measures that would help with ensuring a fair queuing system and a better ticket-buying experience. Let's go through some and understand why they might or might not work.
+There are many complaints out there asking for Ticketmaster to implement certain measures that would help with ensuring a fair queuing system and a better ticket-buying experience.
+
+It is very easy to just think you have a better solution. However, does it work in the real world? Let's go through some and understand why they might or might not work.
 
 ### Require login before accessing the waiting room and queue
 
 Some asked Ticketmaster to only allow logged-in users to get a queue number. They hope that it will reduce the number of people trying to beat the system by opening multiple browsers.
 
-// insert comic
+![Expectations](images/expectations.png)
 
-This would work to a certain extent. However, people may be able to create multiple accounts. As mentioned before, Ticketmaster uses a third-party service. So every new account is an extra cost to them that might not translate to profit.
+This would work. However, people may create multiple accounts to combat this. As mentioned before, Ticketmaster uses a third-party service. So every new account would also have an extra cost to them that might not translate to profit.
 
-// insert comic
+![Reality](images/reality.png)
 
 Furthermore, in the event they face an outage like pre-sale, no one will be able to select tickets at all. There is a higher chance of this happening if they require people to sign in first.
 
-// insert comic
+![Auth Failed](images/auth-fail.png)
 
-Lastly, authentication is a relatively computationally expensive task. In high-volume events, we want to keep computation to a minimum to ensure their servers are not overloaded.
+Lastly, authentication is a relatively computationally expensive task. In high-volume events, we want to keep computation and complexity to a minimum to ensure their servers are not overloaded.
 
 Therefore, I can understand why they may not want to implement this.
-
-// insert comic
 
 ### Link access token to accounts
 
 Access tokens given out should be linked to an account or at least the email provided. This will ensure only those assigned this token can use it.
 
-// insert comic
+![Token Tagging](images/token-tagging.png)
 
-Aside from the cost, I cannot understand why they did not implement this. The number of people registering may not equal the number of people buying tickets. They will have to pay for the authentication of millions of people that would end up not buying tickets causing them to reduce the amount of profits.
+Aside from the cost, I cannot understand why they did not implement this. The number of people registering may not equal the number of people buying tickets. They will have to pay for the authentication of millions of people that may end up not buying tickets causing profit reduction.
 
-// insert comic
+![Reduced Profits](images/profit-reduction.png)
 
 ### Prevent people from reselling tickets
 
