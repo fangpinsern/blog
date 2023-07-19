@@ -1,6 +1,6 @@
 ---
 title: "Taylor Swift Ticket Sales Mayhem"
-date: 2023-07-11T11:27:24+08:00
+date: 2023-07-19T19:15:24+08:00
 showToc: true
 TocOpen: false
 author: ["Pin Sern"]
