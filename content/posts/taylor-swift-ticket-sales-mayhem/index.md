@@ -95,19 +95,19 @@ For example, the server will wait for 10 seconds before processing the first bat
 
 ## Getting the edge
 
-The only way we can get the best queue numbers is to be the first batch. Of queue numbers processed. And to be the first batch, you will need to know at what intervals the browser will make a request. However, this interval is not public knowledge.
+Based on the above assumption, the way we can get the best queue numbers is to be the first batch of queue numbers processed. And to be the first batch, you will need to know at what intervals the browser will make a request. However, this interval is not public knowledge.
 
-So the next best option is to open multiple browsers and refresh them at a fixed interval apart. Once done, just leave it and watch. The key point here is BROWSERS. Not multiple tabs or windows. It is possible to track through background data stored in the browser that you are the same person in the waiting room. So you can use multiple different browsers to open the same site.
+So the next best option is to open multiple browsers and refresh them at a fixed interval apart. Once done, just leave it and watch. The key point here is BROWSERS. Not multiple tabs or windows. It is possible to track through background data stored in the browser that you are the same person in the waiting room. So you should use multiple different browsers to open the same site.
 
-Contrary to popular belief, there is no way Ticketmaster can know you are using multiple browsers on the same machine. This is because browsers (chrome, firefox, safari) do not share information. If the browser does, I highly recommend you do not use it.
+Contrary to popular belief, there is no way Ticketmaster can know you are using multiple browsers on the same computer. This is because browsers (chrome, firefox, safari) do not share information. If the browser does, I highly recommend you do not use it.
 
 However, Ticketmaster may know the number of users connecting from a specific IP Address. So you may need to thread the line between what is considered "bot behavior". One way around this is using your mobile data for one device and your home network for the other.
 
-Note that all this is just speculation. There is no guarantee that you would get a good queue number.
+Note that all this is just speculation. They might also be using a different implementation of their wait room and queue too. So there is no guarantee that you would get a good queue number.
 
 ## Can Ticketmaster do better?
 
-There are many complaints out there asking for Ticketmaster to implement certain measures that would help with ensuring a fair queuing system and a better ticket-buying experience.
+There are many fans out there asking for Ticketmaster to implement certain measures that would help with ensuring a fair queuing system and a better ticket-buying experience.
 
 It is very easy to just think you have a better solution. However, does it work in the real world? Let's go through some and understand why they might or might not work.
 
