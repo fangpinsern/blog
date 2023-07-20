@@ -39,7 +39,7 @@ After coming up with the features, there are some questions that need to be answ
 
 There is this scene in a show called Silicon Valley where a guy pitches to Richard Hendricks (the main character) about an app that helps you remember where you parked your car. After hearing the pitch, Richard pointed out that people could just use the Notes app in their phone to achieve the same goal.
 
-[Link to video](https://youtu.be/ZRNEUc5k7Jw)
+{{< youtube ZRNEUc5k7Jw >}}
 
 So we tried to come up with some ideas on whether it is possible to achieve the same goals with current tools. Here is what we came up with:
 
