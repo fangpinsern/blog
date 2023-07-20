@@ -61,9 +61,9 @@ For example, if you got the access code and posted it online to show the world, 
 
 Knowing the likely causes, how can we prevent ourselves from facing these issues?
 
-It is quite simple actually. Just log in ahead of time and don't be and don't go bragging online. No rocket science.
+It is quite simple actually. Just log in ahead of time and don't go bragging online. No rocket science.
 
-The million-dollar question is, after getting protecting yourself from all these issues, how can I get the best possible queue number?
+The million-dollar question is, after protecting yourself from all these issues, how can you get the best possible queue number?
 
 ## Process and System
 
@@ -75,7 +75,7 @@ The whole process of purchasing a ticket on Ticketmaster for a major event from 
 
 The whole process is trying to simulate the physical buying experience online. Once you get into the ticket purchasing site, you will have 10 minutes to choose the section you want to be seated in. You do not get to choose the seat itself. After you choose the section you want, the system will try to find seats that can fit all of the tickets together. If you wanted 4 tickets, the 4 seats have to be together. If the system cannot find 4 seats together, they will redirect you back to the selection page and ask you to choose again. The 10 minutes time limit does not reset.
 
-You have to reach the payment page before the 10 minutes are up. If not you will lose your chance to buy the tickets. After you reach the payment page, you will then have another 10 minutes to pay. Once the payment pass though, congratulations on the proud owner of exclusive tickets.
+You have to reach the payment page before the 10 minutes are up. If not you will lose your chance to buy the tickets. After you reach the payment page, you will then have another 10 minutes to pay. Once the payment passes through, congratulations on being the proud owner of these exclusive tickets.
 
 ### Reverse Engineering
 
