@@ -173,7 +173,7 @@ My hall was on a hill. A friend of mine stayed at the top floor of one block and
 
 On my third and last year staying in hall, a group of us did not have much friends as we came in during sem 2. One of my friends suggested that we take a video every day and stitch it together at the end of the sem. Surprisingly, we actually stuck with it. Tbh, that time was also a time for us to just relax a bit and get out of the room since it was mostly online lessons (covid period).
 
-[Link to video](https://youtu.be/R24MMWtizow)
+{{< youtube R24MMWtizow >}}
 
 ## Be adaptable
 
@@ -235,7 +235,7 @@ Next problem was tying the rope. The issue was that the whole system only works 
 
 ![First test image](images/first_test_image.jpeg)
 
-[Link to first test video](https://youtu.be/9oVKaPYja-w)
+{{< youtube 9oVKaPYja-w >}}
 
 All was going well and it was working fine so long as the load was not too heavy. It could transport snacks, stationary and even portable speakers. However, this design presented a few flaws:
 
@@ -261,11 +261,11 @@ The idea is quite simple. Anything in tension tends to break. So for every rope 
 
 The new rope between the 2 rings is quite interesting. During construction, we use that rope to tension the rings as tight as possible. We then put the pulley rope in place. This reduces the hassle of trying to tie the pulley as tight as possible.
 
-[Link to building process](https://youtu.be/NxnqSgbKjbg)
+{{< youtube NxnqSgbKjbg >}}
 
 To make sure everything was tight, we also went to youtube to learn how to tie a "Truckers Hitch". This gave us a way to ratchet the ropes tight without giving us rope burns.
 
-[Link to knot used](https://youtu.be/oNsuvZOI-0U)
+{{< youtube oNsuvZOI-0U >}}
 
 After everything was tight, we loosened the safety rope between the 2 rings. That rope now acts as a safety guide rope for our basket. In the event the pulley rope breaks (in tension), the basket will be held up by the safety rope (in slack). In the case everything breaks, it will just be a giant smile :)
 

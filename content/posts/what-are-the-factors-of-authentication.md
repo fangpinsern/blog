@@ -89,4 +89,6 @@ All in all, it is highly recommended that you enable 2-factor authentication to 
 
 Stay safe
 
-[An intersting video](https://www.youtube.com/watch?v=PWVN3Rq4gzw)
+## An Interesting Video
+
+{{< youtube PWVN3Rq4gzw >}}

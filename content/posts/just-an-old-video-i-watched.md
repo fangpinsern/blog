@@ -11,7 +11,7 @@ ShowWordCount: false
 
 Recently, I watched a video on YouTube. It was an old video of Steve Jobs answering someone at WWDC 1997 (I was not even born yet). Have a look.
 
-[Link to video](https://youtu.be/oeqPrUmVz-o)
+{{< youtube oeqPrUmVz-o >}}
 
 For some context, Steve Jobs just returned to Apple after being famously kicked out. Apple, in 1997, was not doing so great and Jobs made many changes to the company on his return. Not many people liked the changes that he was making. Like the man in the video, many felt he does not know what he was doing.
 
