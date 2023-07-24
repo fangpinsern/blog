@@ -17,49 +17,35 @@ No matter what type of person you are, we all have one thing in common. We need 
 
 // insert comic
 
-## Idea
-
-Build a simple to use solution that would allow users to make an informed decision on what to eat. The choice of where to eat should be based on certain given criteria.
-
-// insert comic
-
-### Verdict
-
-We are going with option 1
-
-## Mock up
-
-Basic mock up of how the app would look like. Please give chance. I'm a software engineer. Not a designer. But it would look rather basic for now and we can iterate through the design in the future.
-
 ## Existing Solutions
 
 There are existing solutions to these problem.
 
 ### Google Maps
 
-For me, I use google maps and their "food near me" feature to help me find locations near me. Then based on the quantity and quality of the reviews, I will choose where to eat.
+For me, I use google maps and their "food near me" feature to help me find food places near me. Then based on the quantity and quality of the reviews, I will choose where to eat.
+
+For those of you that do not know, you can actually type "[thing you want to find] near me" in the google maps search bar and it would give you a list of things that fit the [thing you want to find] near you. For example, if you want to find somewhere to eat dessert, you can type in "dessert near me" and it would give you suggestions.
+
+This works if you want to find somewhere nearby to eat. However, it does not actively provide you personal recommendations that might be suited to your taste.
 
 ### Food Blogs (Recommendations)
 
-## Follow Up action
+There are tons of food blogs and instagram pages recommending food everyday. If you see something you like, you can save it and you can plan to specially go there to eat.
 
-Learn how to build a mobile app with React Native.
+The issue with this is that you need to remember that you want to go to this place. You may forget that is a place you want to visit or not know this place is nearby.
 
-Choose colors for the app
+## Idea
 
-Finalize the feature and a user stories for the app
+The current solutions above do not fully solve the issue we are facing. Hence, we want to build a simple to use solution that would give users recommendations on what to eat. The choice of where to eat should be based on certain given criteria.
 
-## Conclusion
+// insert comic
 
-There will be some that have question regarding if this app will make money. Well, no. The problem it solves might not even be real. But the real goal is to build something outside of work.
-
-## Others
-
-With this in mind, we have 3 options to work with.
+With this idea in mind, we have 3 options to achieve it.
 
 ### Option 1 - Chat Bot
 
-Use a telegram bot that can give you recommendations on what to eat. Like ChatGPT for food.
+Make a telegram bot that can give you recommendations on what to eat. You can add it to your friend group chats and it can recommend you places to eat when y'all have no idea where to go. It will be some sort of personal assistant giving you personal food recommendations to your queries.
 
 Pros:
 
@@ -75,10 +61,64 @@ Cons:
 
 3. If we are aiming to use natural language, it might be expensive
 
-### Option 2
+### Option 2 - Mobile / Web App
 
-Build a mobile app that would achieve this.
+Build a mobile/web app that helps solve this question. It will be an app that people can use to quickly get recommendations on what to eat. Search functionality will help with discovery of different restaurant that users may enjoy.
 
-### Option 3
+Pros:
 
-Food blog
+1. More control over user experience and behavior.
+
+2. Not everyone has telegram
+
+3. It is cool
+
+Cons:
+
+1. Need to upload to the respective app stores and get approval.
+
+2. On top of that, need to convince people that your app is worth downloading.
+
+3. High complexity and effort
+
+### Option 3 - Food Blog
+
+Write and maintain a food blog that gives recommendations. We can have weekly posts that will give recommendations. Adding a newsletter can further enhance the experience and give weekly recommendations to people.
+
+Pros:
+
+1. Easy to start
+
+2. No need to reinvent the wheel - There are already many blogging apps available out there
+
+Cons:
+
+1. Cannot customize the user experience
+
+2. Crowded space - There are thousands of food blogs out there more established. Difficult to attract and differentiate
+
+### Verdict
+
+After careful consideration, I decided to go with option 2. Option 2 gives flexibility and allows me to expand the feature sets of the app freely. Telegram bots though powerful, is limited to interactions that most people may be unfamiliar with.
+
+## Mock up
+
+Basic mock up of how the app would look like. Please give chance. I'm a software engineer. Not a designer. But it would look rather basic for now and we can iterate through the design in the future.
+
+// Insert mock ups with short captions
+
+## Follow Up Action
+
+1. Finalize the feature and user stories for the app
+
+2. Learn how to build a mobile app with React Native
+
+3. Choose colors for the app
+
+## Conclusion
+
+The first thing people may ask is, "How are you gonna make money?" Well, it is not really about making money at the moment. The problem it solves might not even be real. It is about the process of building something from scratch. Contrary to popular belief, having multiple years of experience at one company does not make you a better software engineer. Yes experience is important. But from a technical standpoint, the years of experience gets you familiar with the companies internal tools. And in big companies, the job gets very narrow and focused. Furthermore, every company uses different technologies. So the important thing is to be adaptable. And well, you cannot be adaptable just doing the same thing every day hahaha.
+
+So here I am trying to make something.
+
+## Others
